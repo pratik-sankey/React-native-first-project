@@ -36,7 +36,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
         style={[
           styles.sectionTitle,
           {
-            color: isDarkMode ? Colors.white : Colors.black,
+            color: isDarkMode ? Colors.white : Colors.green,
           },
         ]}>
         {title}
@@ -85,13 +85,13 @@ function App(): React.JSX.Element {
         </View>
         <View
           style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            backgroundColor: isDarkMode ? Colors.blue : Colors.white,
             paddingHorizontal: safePadding,
             paddingBottom: safePadding,
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
+          <Section title="Notes taking app ">
+             <Text style={styles.highlight}>This is app by </Text>is edited by  Pratik Magdum has changened this text 
+
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />

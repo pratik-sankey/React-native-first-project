@@ -90,7 +90,7 @@ function App(): React.JSX.Element {
             paddingBottom: safePadding,
           }}>
           <Section title="Notes taking app ">
-             <Text style={styles.highlight}>This is app by </Text>is edited by  Pratik Magdum has changened this text 
+             <Text style={styles.highlight}>This  app by </Text>is edited by  Pratik Magdum has changened this text 
 
           </Section>
           <Section title="See Your Changes">
